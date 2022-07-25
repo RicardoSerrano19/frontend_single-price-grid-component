@@ -2,6 +2,7 @@
 
 :root{
     --cyan: hsl(179, 62%, 40%);
+    --cyan-light: hsl(179, 62%, 45%);
     --bright-yellow: hsl(71, 73%, 49%);
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
@@ -25,11 +26,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container{
     max-width: 90%;
+    margin: 2rem;
 }
 
 .container__join{
@@ -99,4 +100,22 @@ body{
     font-weight: 700;
     box-shadow: 0px 1rem 1rem rgba(0, 0, 0, 0.3);
     cursor: pointer;
+}
+
+/* Why us */
+.container__why{
+    background-color: var(--cyan-light);
+    padding: 2rem;
+    color: white;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.container__why__title{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.container__why__text{
+    margin-bottom: 0.3rem;
 }
