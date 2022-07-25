@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
 :root{
-    --cyan: hsl(179, 62%, 43%);
+    --cyan: hsl(179, 62%, 40%);
     --bright-yellow: hsl(71, 73%, 49%);
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
@@ -55,4 +55,48 @@ body{
 .container__join__description{
     color: var(--grayish-blue);
     line-height: 1.6rem;
+}
+
+/* Suscription */
+.container__subscription{
+    background-color: var(--cyan);
+    padding: 2rem;
+    color: white;
+}
+
+.container__subscription__title{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.container__subscription__price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.container__subscription__price__amount{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.container__subscription__price__frequency{
+    color: var(--light-gray)
+}
+
+.container__subscription__description{
+    margin-bottom: 1.5rem;
+}
+.container__subscription__btn{
+    background-color: var(--bright-yellow);
+    border: none;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 1rem 1rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
