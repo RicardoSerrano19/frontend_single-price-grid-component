@@ -2,7 +2,7 @@
 
 :root{
     --cyan: hsl(179, 62%, 43%);
-    --bright-yellow: hsl(71, 73%, 54%);
+    --bright-yellow: hsl(71, 73%, 49%);
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
 }
@@ -26,4 +26,33 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.container{
+    max-width: 90%;
+}
+
+.container__join{
+    background-color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 2rem;
+}
+
+.container__join__title{
+    color: var(--cyan);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.container__join__subtitle{
+    color: var(--bright-yellow);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.container__join__description{
+    color: var(--grayish-blue);
+    line-height: 1.6rem;
 }
