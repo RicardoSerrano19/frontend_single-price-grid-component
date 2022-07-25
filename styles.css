@@ -19,3 +19,11 @@ html {
     font-weight: 200;
     font-family: 'Karla', sans-serif;
 }
+
+body{
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
